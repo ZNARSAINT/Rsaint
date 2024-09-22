@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { 
+  background: url(sssssssssss.jpg) no-repeat center fixed; /*background*/
+  background-size: cover;
+}
+.navbar {
+  width: 100%;
+  background-color: green;
+  overflow: hidden;
+  font-family: impact;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 18px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px ;
+  background-color: orange;
+  font-family: impact;
+  margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: grey;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: violet;
+  min-width: 160px;
+}
+
+.dropdown-content a {
+  float: none;
+  color: blue;
+  padding: 12px ;	
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+p{
+	font-size:50px;
+	text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a class="active" href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">HTML 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="html/ACT1Heading.html">ACT1Heading</a>
+      <a href="html/ACT2Paragraph.html">ACT2Paragraph</a>
+      <a href="html/ACT3LineBreak.html">ACT3LineBreak</a>
+	  <a href="html/Act4CenterContent.html">Act4CenterContent</a>
+	  <a href="html/Act5HorizontalLine.html">Act5HorizontalLine</a>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn">CSS 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="css/ACTCSS1.html">ACTCSS1</a>
+	  <a href="css/ACTCSS2.html">ACTCSS2</a>
+	  <a href="css/ACTCSS3.html">ACTCSS3</a>
+	  <a href="css/ACTCSS4.html">ACTCSS4</a>
+	  <a href="css/ACTCSS5.html">ACTCSS5</a>
+    </div>
+  </div> 
+  <a href="abtm.html"><i class="fa fa-fw fa-user"></i> About Me</a>
+</div>
+<p>text</p>
+</body>
+</html>
